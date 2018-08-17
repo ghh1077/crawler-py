@@ -1,7 +1,10 @@
 # 91porn下载脚本
-用法：
+安装依赖：
 ```
 pip install -r requirements.txt
+```
+用法：
+```
 python porn91.py [-a1 1] [-a2 2]
 # a1是第几页开始
 # a2是到第几页结束
