@@ -41,7 +41,7 @@ class downloader:
         print(u'{} download percent {}%'.format(self.title,round(float(end)/self.total,3)*100))
         #seek到start位置
         self.fd.seek(start)
-        self.fd.write(res.text)
+        self.fd.write(res.content)
 
     def run(self):
         # 保存文件打开对象
