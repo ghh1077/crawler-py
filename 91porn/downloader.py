@@ -45,7 +45,7 @@ class downloader:
 
     def run(self):
         # 保存文件打开对象
-        self.fd =  open(self.path,'w')
+        self.fd =  open(self.path,'wb')
         thread_list = []
         #一个数字,用来标记打印每个线程
         n = 0
