@@ -26,7 +26,7 @@ class downloader:
 
     def get_range(self):
         ranges=[]
-        self.num=math.floor(self.total/self.offset)+1
+        self.num=int(math.floor(self.total/self.offset)+1)
         for i in range(self.num):
             if i==self.num-1:
                 ranges.append((i*self.offset,self.total))
